@@ -164,8 +164,8 @@ export const NODES_CONFIG: { [key in NetworkId]: StaticNodeConfig[] } = {
     {
       name: NetworkUtils.makeNodeName('CLO', 'clo'),
       type: NodeType.RPC,
-      service: '0xinfra.com',
-      url: 'https://clo-geth.0xinfra.com/'
+      service: 'rpc.callisto.network',
+      url: 'https://rpc.callisto.network/'
     }
   ],
 
